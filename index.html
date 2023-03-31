@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="mediaqueries.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    
+    <div class="wrapper">
+
+      <!-- navigation section  -->
+      <nav class="Navigation container flex">
+        <div class="fylo-logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="nav-buttons flex">
+          <a href="#" class="nav-links">Features</a>
+          <a href="#" class="nav-links">Team</a>
+          <a href="#" class="nav-links">Sign In</a>
+        </div>
+      </nav>
+
+      <!-- section 1 -->
+      <section class="section-1 container">
+        <div class="section-1-left flex">
+          <h1 class="section-1-header Headings">All your files in one secure location, accessible anywhere.</h1>
+          <p class="section-1-desc">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+          <div class="get-started flex">
+            <label for="Email">
+              <input type="email" class="email-input" name="email" id="Email" placeholder="Enter your email..." required>
+            </label>
+            <div class="start-CTA-button">
+              <a href="#" class="CTA">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="section-1-right">
+          <img src="./images/illustration-1.svg" alt="">
+        </div>
+      </section>
+
+      <!-- section 2 -->
+      <section class="section-2">
+
+        <div class="section-2-content container">
+          <div class="section-2-left flex">
+            <h2 class="section-2-heading Headings">Stay productive, wherever you are</h2>
+            <div class="section-2-desc flex">
+              <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+              <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+            </div>
+            <div class="section-2-hyperlink">
+              <a href="#" class="hyperlink">See how Fylo works</a>
+              <img src="./images/icon-arrow.svg" alt="">
+            </div>
+            <div class="article">
+              <div class="section-2-article flex">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="article-info">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                <div class="article-about flex">
+                  <div class="article-image">
+                    <img src="./images/avatar-testimonial.jpg" alt="">
+                  </div>
+                  <div class="about-person flex">
+                    <h5 class="person-name">Kyle Burton</h5>
+                    <p class="person-designition">Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+          <div class="section-2-right">
+            <img src="./images/illustration-2.svg" alt="">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- section 3 -->
+      <section class="section-3">
+        <div class="CTA-section container">
+          <div class="CTA-section-left flex">
+            <div class="CTA-heading Headings">Get early access today</div>
+            <p class="CTA-desc">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+          </div>
+          <div class="CTA-section-right flex">
+            <label for="Email">
+              <input type="email" class="cta-email-input" name="email" id="Email" placeholder="email@example.com" required>
+            </label>
+            <div class="CTA-button">
+              <a href="#" class="CTA">Get Started For Free</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section  -->
+      <footer>
+        <div class="footer-section container">
+          <div class="footer-logo">
+            <img src="./images/logo-white.svg" alt="">
+          </div>
+          <!-- <div class="footer-details"> -->
+            <div class="phone">
+              <img src="./images/icon-phone.svg" alt="">
+              <a href="#" class="phone-number">Phone: +1-543-123-4567</a>
+            </div>
+            <div class="footer-email">
+              <img src="./images/icon-email.svg" alt="">
+              <a href="#" class="email">example@fylo.com</a>
+            </div>
+            <a href="#" class="about">About Us</a>
+            <a href="#" class="job">Jobs</a>
+            <a href="#" class="press">Press</a>
+            <a href="#" class="blog">Blog</a>
+            <a href="#" class="contact-us">Contact Us</a>
+            <a href="#" class="terms">Terms</a>
+            <a href="#" class="privacy">Privacy</a>
+            <div class="social-links">
+              <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            </div>
+          <!-- </div> -->
+        </div>
+      </footer>
+    </div>
+
+
+
+  </body>
+</html>
